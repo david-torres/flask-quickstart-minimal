@@ -5,10 +5,12 @@
     <meta charset="utf-8">
     <title>{% block title %}{% endblock %}</title>
     <link href="http://picnicss.com/releases/v1.1.min.css" rel="stylesheet" type="text/css">
+    {% block head %}{% endblock %}
 </head>
 
 <body>
     {% block content %}{% endblock %}
+    {% block js %}{% endblock %}
 </body>
 
 </html>
