@@ -6,10 +6,12 @@
     <title>{% block title %}{% endblock %}</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link href="{{ url_for('static', filename='css/picnic.css') }}" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     {% block head %}{% endblock %}
 </head>
 
 <body>
+    {% include 'nav.html' %}
     {% block content %}{% endblock %}
     {% block js %}{% endblock %}
 </body>
