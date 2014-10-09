@@ -17,4 +17,4 @@
 
 # Add routes and views
 
-Create routes in controllers.py. Add corresponding views copying the contents of _blank.html as a base.
+Create routes in controllers.py. Add views by copying the contents of _blank.html as a base.
