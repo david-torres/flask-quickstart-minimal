@@ -1,4 +1,4 @@
-# This project is an minimal skeleton meant to accelerate fast prototyping.
+# This project is a minimal skeleton intended for fast prototyping
 
 - [Flask](http://flask.pocoo.org/)
 - [Picnic](http://picnicss.com/)
@@ -14,3 +14,7 @@
 # Launch web server
 
     $ python run.py
+
+# Add routes and views
+
+Create routes in controllers.py. Add corresponding views copying the contents of _blank.html as a base.
